@@ -1,3 +1,4 @@
+import chevronDown from '@/assets/chevron-down.svg'
 const AcordionItem = ({title}:{title:string}) => {
   return (
     <section
@@ -27,12 +28,19 @@ const AcordionItem = ({title}:{title:string}) => {
         style={{
           display: "flex",
           gap: "1rem",
+          alignItems: "center",
+          alignContent: "center",
         }}
       >
         <span>8 lecciones</span>
         <span>30 m 24s</span>
         <span>Modulo1</span>
-        <span>^</span>
+        <img
+        style={{
+          width: "18px",
+          height: "18px",
+        }}
+        src={chevronDown}  />
       </div>
     </section>
   );

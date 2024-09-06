@@ -3,7 +3,7 @@ import LadingBanner from "../LandingBanner/LandingBanner"
 import LandingReviews from "../LandingReviews"
 import Accordion from "@/components/UI/Accordion"
 import styles from './LandingPage.module.css'
-
+import Icon from '@/assets/Icon.svg'
 const LandingPage = () => {
   return (
     <section className={styles.landingPage}>
@@ -33,22 +33,37 @@ const LandingPage = () => {
           >
             ¿Qué aprenderás en este curso?
           </h2>
-          <p
-            style={{
-              fontWeight: 300,
-              fontSize: "16px",
-              lineHeight: "28px",
-              letterSpacing: "0.01em",
-            }}
+          <section
+          style={{
+            display: "flex",
+            gap: "12px",
+            marginBottom: "1rem",
+          }}
           >
-            <img /> En este curso aprenderás todo lo necesario para comprender a
-            fondo nuestra organización. Comenzaremos con el proceso de
-            Onboarding, seguido de una inmersión en la estrategia de Lapzo,
-            donde conocerás nuestra misión, visión y la estructura
-            organizacional que nos guía. Además, exploraremos nuestra oferta de
-            valor y te compartiremos la historia de Lapzo, para que entiendas
-            cómo hemos llegado a donde estamos hoy.
-          </p>
+            <img
+              style={{
+                width: "22px",
+                height: "22px",
+              }}
+              src={Icon}
+            />
+            <p
+              style={{
+                fontWeight: 300,
+                fontSize: "16px",
+                lineHeight: "28px",
+                letterSpacing: "0.01em",
+              }}
+            >
+              En este curso aprenderás todo lo necesario para comprender a fondo
+              nuestra organización. Comenzaremos con el proceso de Onboarding,
+              seguido de una inmersión en la estrategia de Lapzo, donde
+              conocerás nuestra misión, visión y la estructura organizacional
+              que nos guía. Además, exploraremos nuestra oferta de valor y te
+              compartiremos la historia de Lapzo, para que entiendas cómo hemos
+              llegado a donde estamos hoy.
+            </p>
+          </section>
         </div>
         <div
           style={{
