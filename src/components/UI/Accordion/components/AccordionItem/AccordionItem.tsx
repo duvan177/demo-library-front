@@ -1,5 +1,5 @@
-import chevronDown from '@/assets/chevron-down.svg'
-const AcordionItem = ({title}:{title:string}) => {
+import down from "@/assets/chevron-down.svg";
+const AcordionItem = ({ title }: { title: string }) => {
   return (
     <section
       style={{
@@ -36,14 +36,15 @@ const AcordionItem = ({title}:{title:string}) => {
         <span>30 m 24s</span>
         <span>Modulo1</span>
         <img
-        style={{
-          width: "18px",
-          height: "18px",
-        }}
-        src={chevronDown}  />
+          style={{
+            width: 18,
+            height: 18,
+          }}
+          src={down}
+        />
       </div>
     </section>
   );
-}
+};
 
-export default AcordionItem
+export default AcordionItem;

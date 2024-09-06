@@ -35,22 +35,32 @@ const LandingPage = () => {
             >
               ¿Qué aprenderás en este curso?
             </h2>
-            <p
+            <section
               style={{
-                fontWeight: 300,
-                fontSize: "16px",
-                lineHeight: "28px",
-                letterSpacing: "0.01em",
+                display: "flex",
+                gap: "1rem",
+                alignItems: "start",
+                marginBottom: "1rem",
               }}
             >
-              <img /> En este curso aprenderás todo lo necesario para comprender
-              a fondo nuestra organización. Comenzaremos con el proceso de
-              Onboarding, seguido de una inmersión en la estrategia de Lapzo,
-              donde conocerás nuestra misión, visión y la estructura
-              organizacional que nos guía. Además, exploraremos nuestra oferta
-              de valor y te compartiremos la historia de Lapzo, para que
-              entiendas cómo hemos llegado a donde estamos hoy.
-            </p>
+              <img src={Icon} />
+              <p
+                style={{
+                  fontWeight: 300,
+                  fontSize: "16px",
+                  lineHeight: "28px",
+                  letterSpacing: "0.01em",
+                }}
+              >
+                En este curso aprenderás todo lo necesario para comprender a
+                fondo nuestra organización. Comenzaremos con el proceso de
+                Onboarding, seguido de una inmersión en la estrategia de Lapzo,
+                donde conocerás nuestra misión, visión y la estructura
+                organizacional que nos guía. Además, exploraremos nuestra oferta
+                de valor y te compartiremos la historia de Lapzo, para que
+                entiendas cómo hemos llegado a donde estamos hoy.
+              </p>
+            </section>
           </div>
           <div
             style={{
@@ -108,6 +118,16 @@ const LandingPage = () => {
               entiendas qué nos mueve. Conocerás a nuestro equipo, nuestra
               estructura organizacional, y los principios de liderazgo que
               inspiran nuestras decisiones diarias. También exploraremos nuestra
+              estrategia y oferta de valor para clientes, junto con los
+              productos que nos hacen únicos. ¡Este es el primer paso para que
+              tu éxito sea el de todos! ¡Te esperamos! empieces con el pie
+              derecho y estés preparado/a para destacar en tu rol y en nuestra
+              cultura organizacional. Este curso de onboarding no solo te
+              presentará quiénes somos, sino que te sumergirá en nuestra
+              historia, misión, visión, y valores, para que entiendas qué nos
+              mueve. Conocerás a nuestro equipo, nuestra estructura
+              organizacional, y los principios de liderazgo que inspiran
+              nuestras decisiones diarias. También exploraremos nuestra
               estrategia y oferta de valor para clientes, junto con los
               productos que nos hacen únicos. ¡Este es el primer paso para que
               tu éxito sea el de todos! ¡Te esperamos!
