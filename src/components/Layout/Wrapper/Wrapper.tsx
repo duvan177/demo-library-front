@@ -1,12 +1,13 @@
 interface WrapperProps {
   children: React.ReactNode
+  className?: string;
 }
 
-const Wrapper = ({ children }: WrapperProps) => {
+const Wrapper = ({ children, className = 'home-section-grid' }: WrapperProps) => {
   return (
-    <section className="home-section">
+    <section className={`home-section ${className}`} >
       {children}
-    </section>
+    </section >
   )
 }
 

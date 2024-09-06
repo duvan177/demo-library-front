@@ -330,9 +330,17 @@ ul.elements {
   max-width: 1768px;
   margin: 0 auto;
   height: calc(100vh - 60px); 
+
+  gap: 16px;
+}
+
+.home-section-flex {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+}
+
+.home-section-grid {
+  display: grid;
 }
 
 .card-content {

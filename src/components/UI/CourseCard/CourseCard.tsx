@@ -2,10 +2,11 @@ import styles from './CourseCard.module.css'
 import star from '@/assets/star.png'
 import brand from '@/assets/Brand.png'
 import saveButton from '@/assets/save-button.png'
+import { useNavigate } from 'react-router-dom'
 
 const CourseCard = () => {
   return (
-    <article className={styles.card}>
+    <article className={styles.card} onClick={() => window.location.href = "/explorer/course"}>
       <header className={styles.cardHeader}>
         <img
           src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDI5MnwwfDF8c2VhcmNofDI5fHx3YWxscGFwZXJ8ZW58MHx8fHwxNzI1NDY4OTU4fDA&ixlib=rb-4.0.3&q=80&w=1080"

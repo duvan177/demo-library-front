@@ -13,9 +13,7 @@ const Main = () => {
       <Header />
       <main className={styles.mainContainer}>
         <Sidebar />
-        <Wrapper>
-          {adminRoute}
-        </Wrapper>
+        {adminRoute}
       </main>
     </section>
 

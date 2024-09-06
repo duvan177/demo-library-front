@@ -35,7 +35,7 @@ const Sidebar = () => {
           //onClick={() => handleItemClick(index, EXPLORER_HOME)}
           >
             {/*<a href={item.navigateTo}>*/}
-            <a href="#">
+            <a href="/explorer">
               <i className={item.icon}></i>
               <span className="links_name">{item.name}</span>
             </a>

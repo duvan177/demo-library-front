@@ -8,11 +8,11 @@ const ExplorerLandingView = lazy(() => import('@/components/pages/Explorer/compo
 
 export const routes: RouteObject[] = [
   {
-    path: HOME_PATH,
+    path: EXPLORER_HOME,
     element: <ExplorerView />
   },
   {
-    path: EXPLORER_HOME,
+    path: HOME_PATH,
     element: <HomeView />
   },
   {
