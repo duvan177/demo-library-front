@@ -7,6 +7,14 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+* {
+  scrollbar-width: none; /* Para Firefox */
+  -ms-overflow-style: none;  /* Para Internet Explorer y Edge */
+}
+
+*::-webkit-scrollbar {
+  display: none;  /* Para Chrome, Safari y Opera */
+}
 
 body {
   background-color: #F9F9FB;
